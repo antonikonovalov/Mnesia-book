@@ -1,0 +1,3 @@
+# 1 Introduction
+
+This book describes the Mnesia DataBase Management System (DBMS). Mnesia is a distributed Database Management System, appropriate for telecommunications applications and other Erlang applications which require continuous operation and soft real-time properties. It is one section of the Open Telecom Platform (OTP), which is a control system platform for building telecommunications applications.

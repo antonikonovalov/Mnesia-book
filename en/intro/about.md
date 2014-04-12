@@ -1,0 +1,13 @@
+## 1.1  About Mnesia
+
+The management of data in telecommunications system has many aspects whereof some, but not all, are addressed by traditional commercial DBMSs (Data Base Management Systems). In particular the very high level of fault tolerance which is required in many nonstop systems, combined with requirements on the DBMS to run in the same address space as the application, have led us to implement a brand new DBMS. called Mnesia. Mnesia is implemented in, and very tightly connected to, the programming language Erlang and it provides the functionality that is necessary for the implementation of fault tolerant telecommunications systems. Mnesia is a multiuser Distributed DBMS specially made for industrial telecommunications applications written in the symbolic programming language Erlang, which is also the intended target language. Mnesia tries to address all of the data management issues required for typical telecommunications systems and it has a number of features that are not normally found in traditional databases.
+In telecommunications applications there are different needs from the features provided by traditional DBMSs. The applications now implemented in the Erlang language need a mixture of a broad range of features, which generally are not satisfied by traditional DBMSs. Mnesia is designed with requirements like the following in mind:
+
+* Fast real-time key/value lookup
+* Complicated non real-time queries mainly for operation and maintenance
+* Distributed data due to distributed applications
+* High fault tolerance
+* Dynamic re-configuration
+* Complex objects
+
+What sets Mnesia apart from most other DBMSs is that it is designed with the typical data management problems of telecommunications applications in mind. Hence Mnesia combines many concepts found in traditional databases, such as transactions and queries with concepts found in data management systems for telecommunications applications, such as very fast real-time operations, configurable degree of fault tolerance (by means of replication) and the ability to reconfigure the system without stopping or suspending it. Mnesia is also interesting due to its tight coupling to the programming language Erlang, thus almost turning Erlang into a database programming language. This has many benefits, the foremost is that the impedance mismatch between data format used by the DBMS and data format used by the programming language, which is used to manipulate the data, completely disappears.
